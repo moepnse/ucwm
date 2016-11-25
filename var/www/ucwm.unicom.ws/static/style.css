@@ -101,6 +101,7 @@ input[type=text].error, input[type=password].error {
 #content label {
     display: inline-block;
     width: 100px;
+    vertical-align: top;
 }
 
 #menu {
@@ -137,4 +138,26 @@ input[type=text].error, input[type=password].error {
 
 #menu li a {
     margin: 0;
+}
+
+#new_mail {
+    width: 610px;
+}
+
+#new_mail textarea, #new_mail input[type=text] {
+    width: 500px;
+}
+
+#new_mail input[type=submit] {
+    display: block;
+    margin: auto;
+}
+
+#new_mail .button_container {
+    width: 500px;
+    margin-left: 100px;
+}
+
+#new_mail textarea {
+    height: 300px;
 }

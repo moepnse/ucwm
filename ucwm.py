@@ -126,7 +126,7 @@ class UCWM:
 """
 
     __template_new_mail_form = u"""
-    <form method="post" action="">
+    <form id="new_mail" method="post" action="">
         <div>
             <label>To</label>
             <input type="text" name="to" value="%(to)s">
@@ -147,7 +147,9 @@ class UCWM:
             <label>Message</label>
             <textarea name="mail">%(mail)s</textarea>
         </div>
-        <input type="submit" value="Send E-Mail">
+        <div class="button_container">
+            <input type="submit" value="Send E-Mail">
+        </div>
     </form>
 """
 
