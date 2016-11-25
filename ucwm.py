@@ -83,7 +83,7 @@ class UCWM:
     __template_menu = u"""
     <div id="menu">
         <img id="logo" src="/static/imgs/unicom_wachslogo.png">
-        <a href="/new_mail">New E-Mail</a>
+        <a href="/new_mail/">New E-Mail</a>
         %(menu_entrys)s
         <a href="/logout/" target="">Logout</a>
     </div>
