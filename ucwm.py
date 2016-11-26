@@ -303,7 +303,7 @@ class UCWM:
             if _part.is_multipart():
                 html = html + u"<li>%s</li>" % self._build_multipart_tree(_part, url)
             else:
-                html = html + u"""<li><a target="view_port" href="%s">Part</a></li>""" % url
+                html = html + u"""<li><a target="view_port" href="%s">Part #%s (%s)</a></li>""" % (url, count + 1, _part.get_content_type())
             count =+ 1
         return html + "</ul>"
 
